@@ -1,9 +1,3 @@
----
-services: hdinsight
-platforms: scala
-author: blackmist
----
-
 # Use Apache Kafka with Apache Spark on hdinsight
 
 This is a basic example of streaming data to and from Kafka on HDInsight from a Spark on HDInsight cluster. This example uses Kafka DStreams. This example expects Kafka and Spark on HDInsight 3.6.
@@ -19,8 +13,6 @@ This example uses a Scala application in a Jupyter notebook. The code in the not
 * A __Twitter app configuration__: The `Stream-Tweets-To-Kafka.ipynb` notebook uses Twitter to populate data in Kafka. If you do not have a Twitter app set up, visit [](https://apps.twitter.com) to create one.
 
 * __Topic name__: The name of the topic that data is written to and read from. This example expects a topic named `tweets`.
-
-See the [Kafka host information](#kafkahosts) section for information on how to obtain the Kafka broker and Zookeeper host information.
 
 ## To run this example
 
