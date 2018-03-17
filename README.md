@@ -6,6 +6,7 @@ This is a basic example of streaming data to and from Kafka on HDInsight from a 
 ## How to create Azure subscription using Azure Pass
 
 [Azure Pass homepage](https://www.microsoftazurepass.com/)
+
 [Redemption Process Guide](https://www.microsoftazurepass.com/Home/HowTo)
 
 ## How to create Appache Kafka and Spark cluster 
