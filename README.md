@@ -1,8 +1,19 @@
 # Use Apache Kafka with Apache Spark on hdinsight
 
+
 This is a basic example of streaming data to and from Kafka on HDInsight from a Spark on HDInsight cluster. This example uses Kafka DStreams. This example expects Kafka and Spark on HDInsight 3.6.
 
+## How to create Azure subscription using Azure Pass
+
+[Azure Pass homepage](https://www.microsoftazurepass.com/)
+[Redemption Process Guide](https://www.microsoftazurepass.com/Home/HowTo)
+
+## How to create Appache Kafka and Spark cluster 
+
 __NOTE__: Apache Kafka and Spark are available as two different cluster types. HDInsight cluster types are tuned for the performance of a specific technology; in this case, Kafka and Spark. To use both together, you must create an Azure Virtual network and then create both a Kafka and Spark cluster on the virtual network. For an example of how to do this using an Azure Resource Manager template, see [https://hditutorialdata.blob.core.windows.net/armtemplates/create-linux-based-kafka-spark-cluster-in-vnet.json](https://hditutorialdata.blob.core.windows.net/armtemplates/create-linux-based-kafka-spark-cluster-in-vnet.json). For an example of using the template with this example, see [Use Apache Spark with Kafka on HDInsight (preview)](https://docs.microsoft.com/azure/hdinsight/hdinsight-apache-spark-with-kafka).
+
+Direct link to cretate full environment
+[Deploy to Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fhditutorialdata.blob.core.windows.net%2Farmtemplates%2Fcreate-linux-based-kafka-spark-cluster-in-vnet-v4.1.json)
 
 ## Understand this example
 
